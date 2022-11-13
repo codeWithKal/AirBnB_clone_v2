@@ -35,8 +35,6 @@ def var_in_route(text):
 
 
 @app.route("/python", strict_slashes=False)
-
-
 @app.route("/python/<text>", strict_slashes=False)
 def var_with_dflt(text="is cool"):
     """
